@@ -1,0 +1,20 @@
+{
+  "name": "contact-manager-app",
+  "version": "1.0.0",
+  "description": "contect manager app",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm index.js",
+    "dev": "nodemon indes.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prakash unyal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
