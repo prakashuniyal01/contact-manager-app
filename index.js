@@ -9,7 +9,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 5001;
 
-app.use("/api/contect", require("./routes/contetRoute")); 
+app.use("/api/contect", require("./routes/contactRoute")); 
 // app.get(Router);
 // error handler
 app.use(errorHandler);
